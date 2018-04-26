@@ -5,7 +5,7 @@
         <div class="max-wrapper">
         	<div class="header-wrapper">
         		<div class="header-cont">
-	        		<!-- <div class="logo"></div> -->
+	        		<div class="logo"></div>
 	        		<div class="search">
 	        			<i class="el-icon-search"></i>
 	        		</div>
@@ -38,7 +38,7 @@
         </div>
         <!-- 860以下的样式 -->
         <div class="min-wrapper">
-        	<!-- <div class="logo"></div> -->
+        	<div class="logo"></div>
         	<div class="nav">
 				<el-menu 
 					class="my-el-menu" 
@@ -77,16 +77,16 @@
 		border-bottom: 1px solid #f5f5f5;
 	}
 	.max-wrapper .header-cont{
-		max-width: 800px;
-		height: 50px;
+		max-width: 1000px;
+		height: 99px;
 		margin: auto;
-		padding: 25px 0;
+		padding: 24.5px 10px;
 	}
 	.max-wrapper .header-cont .logo{
-		width: 264px;
+		width: 180px;
 		height: 50px;
 		background:url('../../common/image/logo.png') no-repeat center center;
-		background-size: 264px 50px;
+		background-size: contain;
 		float: left;
 	}
 	.max-wrapper .header-cont .nav{

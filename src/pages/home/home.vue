@@ -8,17 +8,17 @@
 	    			<figure class="jazz">
 	    				<img src="../../common/image/menu.jpeg">
 	    				<figcaption class="txt">
-	    					<h2>Time to diffuse</h2>
-	    					<p>宠辱不惊,看庭前花开花落。<br>去留无意,望天空云卷云舒。</p>
+	    					<h2>I</h2>
+	    					<!-- <p>平凡简单</p> -->
 	    				</figcaption>
 	    			</figure>
 	    		</router-link>
 	    		<router-link class="link" to="/music">
 	    			<figure class="jazz">
-	    				<img src="./link2.png">
+	    				<img src="../../common/image/menu.jpeg">
 	    				<figcaption class="txt">
-	    					<h2>one piece</h2>
-	    					<p>我可是要成为全栈王的仙女</p>
+	    					<h2>AM</h2>
+	    					<!-- <p>安于平凡</p> -->
 	    				</figcaption>
 	    			</figure>
 	    		</router-link>
@@ -26,8 +26,8 @@
 	    			<figure class="jazz">
 	    				<img src="../../common/image/menu.jpeg">
 	    				<figcaption class="txt">
-	    					<h2>MOVIE</h2>
-	    					<p>看电影</p>
+	    					<h2>WEB DESIGNER</h2>
+	    					<!-- <p>真不简单</p> -->
 	    				</figcaption>
 	    			</figure>
 	    		</router-link>
@@ -169,6 +169,7 @@
 		margin: 0 10px;
 	}
 	.links .link .jazz {
+		height: 160px;
 		background: linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
 		position: relative;
 		overflow: hidden;
@@ -195,6 +196,9 @@
 	    text-transform: uppercase;
 	    font-size: 20px;
 	    backface-visibility: hidden;
+	    display: flex;
+	    align-items: center;
+	    text-align: center;
 	}
 	.links .link .jazz .txt::after {
 		position: absolute;
@@ -215,7 +219,8 @@
 		transform: scale3d(0.8,0.8,1);
 	}
 	.links .link .jazz h2 {
-		padding-top: 26%;
+		flex: 1;
+		text-align: center;
 		letter-spacing: 1px;
 	}
 	.links .link .jazz p {
