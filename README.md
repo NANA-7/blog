@@ -18,7 +18,6 @@ Hello,大家好我是NANA，中文名字：6++。
 后台：NodeJS + Mongodb
 ### →效果或源码预览
 戳我的博客地址：
-\*[NANA的乌托邦](http://nana7.cn/)\*
   
   
 OR
